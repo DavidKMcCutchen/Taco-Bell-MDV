@@ -1,0 +1,22 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Hard Taco",
+      "price": "$2",
+      "description": "Hard taco shell with ground beef, cheese and lettuce."
+    },
+    {
+      "id": 2,
+      "name": "Cheesey Gordita",
+      "price": "$3.49",
+      "description": "Fluffy Gordita Tortilla with Melted Cheese and a Hard Shell Taco Inside with Your Choice of Meat."
+    },
+    {
+      "id": 3,
+      "name": "Bean Burrito",
+      "price": "$1.79",
+      "description": "Bean and Cheese Burrito with Red Sauce."
+    }
+  ]
+}

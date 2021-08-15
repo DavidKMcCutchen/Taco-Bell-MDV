@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="col-50" layout="row" layout-align="center center">
+      <taco-bell-food-list
+        [foods]="allFoods$ | async"
+        (selected)="selectFood($event)"
+        (deleted)="deleteFood($event)"
+      ></taco-bell-food-list>
+    </div>
+    <div class="col-50" layout="row" layout-align="center center">
+      <taco-bell-food-details
+        [food]="selectedFood$ | async"
+        (saved)="saveFood($event)"
+        (cancelled)="resetFood()"
+        [form]="form"
+      ></taco-bell-food-details>
+    </div>
+  </div>
